@@ -49,6 +49,12 @@ To check current configured keys, press `Ctrl + Super + H`.
 ## Additional configuration
 ### Wallpapers
 To change wallpaper, you need to go to `~/.dotfiles/dotfiles/awesome/.config/awesome/wallpaper` and replace either `pastel_wallpaper` or `pastel_lock_wallpaper` with desired wallpaper
+### Scroll with middle mouse
+By default, dotfiles will load script that can make your mouse use scroll button as way to scroll way faster and in 2 dimensions, using entire mouse movements
+
+It targets only handful of mouses (that i used personally) and only a handful of games (to disable this behaviour of scrolling in them), so your mouse will unlikely to be able to do this by default.
+
+To enable this behaviour, you can check out your mouse name with `xinput` (actual mouse, not consumers or additional input devices) and then add to the array of the devices in the script your mouse
 
 ## Keybinds for these awesomewm dotfiles 
 ![image](https://user-images.githubusercontent.com/7141787/154796761-5a0e1af8-aaad-4908-9904-112d0b9034a3.png)
