@@ -46,6 +46,10 @@ In case you have any errors, you can open terminal (`Super + Return`), fix the e
 
 To check current configured keys, press `Ctrl + Super + H`.
 
+## Additional configuration
+### Wallpapers
+To change wallpaper, you need to go to `~/.dotfiles/dotfiles/awesome/.config/awesome/wallpaper` and replace either `pastel_wallpaper` or `pastel_lock_wallpaper` with desired wallpaper
+
 ## Keybinds for these awesomewm dotfiles 
 ![image](https://user-images.githubusercontent.com/7141787/154796761-5a0e1af8-aaad-4908-9904-112d0b9034a3.png)
 
