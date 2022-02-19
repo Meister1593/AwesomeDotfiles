@@ -30,17 +30,18 @@ Feel free to open issues you have  encountered with installing or using these do
 5. Battery info: `cbatticon`
 6. Bluetooth media control: `mpris-proxy` (depends on distro, look for yourself)
 7. Tearing prevention (on AMD): `xrandr` (adjust your video ports in `apps.lua`)
-8. Kdeconnect indicator: flatpak `com.github.bajoja.indicator-kdeconnect`
+8. Kdeconnect indicator: user flatpak `com.github.bajoja.indicator-kdeconnect`
 9. Noise supression and audio effects: `easyeffects`
-10. Audio effects, and scripts + crossfeed: `jamesdsp`
+10. Audio effects, and audio scripts + crossfeed: `jamesdsp`
 
 ## Basic installation (using GNU Stow)
-1. Open terminal and type all next steps in it.
-2. `git clone https://github.com/Meister1593/AwesomeDotfiles.git .dotfiles` in a home folder.
-3. `cd .dotfiles/dotfiles`.
-4. `stow -nvt ~ *` and if it doesn't report error at the end (`WARNING: in simulation mode so not modifying filesystem.` is fine), then proceed to the next step. In case it reports something like - `path is not found`, then you might need to create these paths manually (for example, `~/Documents/Code/Shell/Scripts`)
-5. `stow -vt ~ *` and it is done now.
-6. In case you want to modify arrangement of these dotfiles (not the contents, it is fine to change them when they are symlinked), it is highly advised to first unlink all files (`stow -Dvt ~ *` in `~/.dotfiles/dotfiles`) to prevent dangling symlinks.
+1. Install GNU Stow for your distro
+2. Open terminal and type all next steps in it.
+3. `git clone https://github.com/Meister1593/AwesomeDotfiles.git .dotfiles` in a home folder.
+4. `cd .dotfiles/dotfiles`.
+5. `stow -nvt ~ *` and if it doesn't report error at the end (`WARNING: in simulation mode so not modifying filesystem.` is fine), then proceed to the next step. In case it reports something like - `path is not found`, then you might need to create these paths manually (for example, `~/Documents/Code/Shell/Scripts`)
+6. `stow -vt ~ *` and it is done now.
+7. In case you want to modify arrangement of these dotfiles (not the contents, it is fine to change them when they are symlinked), it is highly advised to first unlink all files (`stow -Dvt ~ *` in `~/.dotfiles/dotfiles`) to prevent dangling symlinks.
 
 After installation, you can log into AwesomeWM desktop, and if all went well, you won't have any errors. 
 
