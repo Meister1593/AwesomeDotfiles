@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source .profile
+export $(dbus-launch)
+export DESKTOP_SESSION=gnome
+./pipewire.sh &
