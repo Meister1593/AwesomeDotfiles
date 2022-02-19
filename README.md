@@ -1,5 +1,6 @@
 # AwesomeDotfiles
 My dotfiles that i use daily because no other WM or DE provides such experience 
+
 Most of the awesomewm dotfiles are based on https://github.com/WillPower3309/awesome-dotfiles dotfiles, which i'm glad he did them like so. Also big thanks for beatiful rofi themes to https://github.com/adi1090x/rofi devs
 
 I didn't like how keys were placed and it lacked some programs i needed, so i modified it a bit, added several keys, added rules for my go-to programs and games to place on certain workspaces
