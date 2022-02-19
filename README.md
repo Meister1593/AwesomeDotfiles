@@ -19,6 +19,7 @@ Feel free to open issues you have  encountered with installing or using these do
 7. Compositor: `picom`
 8. Polkit agent: `polkit-gnome-authentication-agent-1` (depends on the distro packages, look for yourself to find one)
 9. Network Applet: `nm-applet`
+10. Task manager: `gnome-system-monitor`
 
 ## Optional Dependencies (but are used by default in these dotfiles):
 1. Calculator: `gnome-calculator`
