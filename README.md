@@ -52,7 +52,7 @@ To check current configured keys, press `Ctrl + Super + H`.
 ## TODO
   1. Move away from Breeze-Dark theme for gtk and qt for long.
   2. Submodule rofi theme to proper git repository.
-  3. Add proper list of dependencies (it is quite big) and remove all unnecessary stuff that isn't needed (mirage theme?).
+  3. Remove all unnecessary stuff that isn't needed in awesome (mirage theme?).
   4. Cleanup some .xinitrc, .profile etc files in case they are underutilised.
   5. Move requried scripts for awesomewm to function into awesomewm folder instead of documents.
   6. Started typescript-to-lua transisiton (calendar) should be either completed, or reverted back to normal Lua.
