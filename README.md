@@ -36,8 +36,12 @@ Basic installation (using GNU Stow)
 5. `stow -vt ~ *` and it is done now
 6. In case you want to modify arrangement of these dotfiles (not the contents, it is fine to change them when they are symlinked), it is highly advised to first unlink all files (`stow -Dvt ~ *` in `~/.dotfiles/dotfiles`) to prevent dangling symlinks.
 
-After installation, you can log into AwesomeWM desktop, and if all went well, you won't have any errors. In case you have, you can open terminal through default awesomewm keybinds and then reload it (`Ctrl + Meta + R` is default keybind to reload awesome)
+After installation, you can log into AwesomeWM desktop, and if all went well, you won't have any errors. In case you have, you can open terminal through default awesomewm keybinds and then reload it (`Ctrl + Super + R` is default keybind to reload awesome)
 
+To check current configured keys, press `Ctrl + Super + H`
+
+Current configuration: 
+![image](https://user-images.githubusercontent.com/7141787/154796761-5a0e1af8-aaad-4908-9904-112d0b9034a3.png)
 
 TODO:
   1. Move away from Breeze-Dark theme for gtk and qt for long
