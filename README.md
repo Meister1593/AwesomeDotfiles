@@ -1,11 +1,15 @@
 # AwesomeDotfiles
 My dotfiles that i use daily because no other WM or DE provides such experience 
 
+## Description
 Most of the awesomewm dotfiles are based on https://github.com/WillPower3309/awesome-dotfiles dotfiles, which i'm glad he did them like so. Also big thanks for beatiful rofi themes to https://github.com/adi1090x/rofi devs
 
 I didn't like how keys were placed and it lacked some programs i needed, so i modified it a bit, added several keys, added rules for my go-to programs and games to place on certain workspaces
 
-Must-have dependencies:
+## Confitubtion
+Feel free to open issues you have  encountered with installin/using these dotfiles
+
+## Mandatory dependencies
 1. Terminal: `kitty`
 2. Lock: `i3lock-color + xidlehook` (xidlehook is currently not maintained and sadly won't be (https://github.com/jD91mZM2/xidlehook/issues/72), needs to be replaced)
 3. Program Launcher: `rofi` (might need additional dependencies)
@@ -16,7 +20,7 @@ Must-have dependencies:
 8. Polkit agent: `polkit-gnome-authentication-agent-1` (depends on the distro packages, look for yourself to find one)
 9. Network Applet: `nm-applet`
 
-Optional Dependencies (but are used by default in these dotfiles):
+## Optional Dependencies (but are used by default in these dotfiles):
 1. Calculator: `gnome-calculator`
 2. Bluetooth Manager: `blueman`
 3. Gif Maker: `peek`
@@ -28,7 +32,7 @@ Optional Dependencies (but are used by default in these dotfiles):
 9. Noise supression and audio effects: `easyeffects`
 10. Audio effects, and scripts + crossfeed: `jamesdsp`
 
-Basic installation (using GNU Stow)
+## Basic installation (using GNU Stow)
 1. Open terminal and type all next steps in it
 2. `git clone https://github.com/Meister1593/AwesomeDotfiles.git .dotfiles` in a home folder
 3. `cd .dotfiles/dotfiles`
@@ -40,10 +44,10 @@ After installation, you can log into AwesomeWM desktop, and if all went well, yo
 
 To check current configured keys, press `Ctrl + Super + H`
 
-Current configuration: 
+## Current keybinds 
 ![image](https://user-images.githubusercontent.com/7141787/154796761-5a0e1af8-aaad-4908-9904-112d0b9034a3.png)
 
-TODO:
+## TODO
   1. Move away from Breeze-Dark theme for gtk and qt for long
   2. Submodule rofi theme to proper git repository
   3. Add proper list of dependencies (it is quite big) and remove all unnecessary stuff that isn't needed (mirage theme?)
