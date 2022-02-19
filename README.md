@@ -11,7 +11,7 @@ Feel free to open issues you have  encountered with installing or using these do
 
 ## Mandatory dependencies
 1. Terminal: `kitty`
-2. Lock: `i3lock-color + xidlehook` (xidlehook is currently not maintained and sadly won't be (https://github.com/jD91mZM2/xidlehook/issues/72), needs to be replaced)
+2. Lock: `i3lock-color` and `xidlehook` (xidlehook is currently not maintained and sadly won't be (https://github.com/jD91mZM2/xidlehook/issues/72), needs to be replaced)
 3. Program Launcher: `rofi` (might need additional dependencies)
 4. Screenshots: `flameshot`
 5. File Manager: `caja`
@@ -20,6 +20,7 @@ Feel free to open issues you have  encountered with installing or using these do
 8. Polkit agent: `polkit-gnome-authentication-agent-1` (depends on the distro packages, look for yourself to find one)
 9. Network Applet: `nm-applet`
 10. Task manager: `gnome-system-monitor`
+11. Background: `feh` and `imagemagick`
 
 ## Optional Dependencies (but are used by default in these dotfiles):
 1. Calculator: `gnome-calculator`
