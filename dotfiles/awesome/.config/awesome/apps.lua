@@ -39,7 +39,6 @@ apps.default = {
     audio_control = scripts_loc .. "/control_audio_dbus.sh"
 }
 
-require("naughty").notify({text=wallpaper})
 -- List of apps to start once on start-up
 local run_on_start_up = {
     -- Polkit daemon startup
