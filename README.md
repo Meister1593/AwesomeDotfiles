@@ -50,6 +50,12 @@ In case you have any errors, you can open terminal (`Super + Return`), fix the e
 To check current configured keys, press `Ctrl + Super + H`.
 
 ## Additional configuration
+### Layout switching
+By default, there is switching layout between us and ru locales.
+
+If you want to change it (or remove it completely), look at first autostart lines in `apps.lua` and find xkb-related command.
+
+From there you can configure your kb layouts.
 ### Wallpapers
 To change wallpaper, you need to go to `~/.dotfiles/dotfiles/awesome/.config/awesome/wallpaper` and replace either `pastel_wallpaper` or `pastel_lock_wallpaper` with desired wallpaper
 ### Scroll with middle mouse
