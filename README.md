@@ -1,3 +1,16 @@
+# UPDATE FOR ANYONE WILLING TO USE THESE DOTFILES
+I found the one setup that worked for me and it was Gnome + [Material Shell](https://github.com/material-shell/material-shell).
+
+If you are willing to try out these dotfiles, i highly recommend to try using Material Shell first.
+
+They do support Wayland, have very low entry threshold and works quite well. 
+
+Only thing you will miss in that case is separate screen workspaces (one will be pinned on other monitors). 
+
+But you will be rewarded with things like a persistent desktop, where you can have application launchers in workspaces where they were left.
+
+In any case, i left this notice just for people to know that there is an actual alternative for this.
+
 # AwesomeDotfiles
 My dotfiles that i use daily because no other WM or DE provides such experience.
 
